@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRUD Node.js + Express.js + MongoDB</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="main-container">
+        <form action="/add" method="post">
+            <input type="text" name="name" id="" autocomplete="off" placeholder="Ingresa el nombre">
+            <input type="text" name="username" id="" autocomplete="off" placeholder="Ingresa el nombre de usuario">
+            <input type="password" name="password" id="" autocomplete="off" placeholder="Ingresa la contraseña">
+            <input type="text" name="age" id="" autocomplete="off" placeholder="Ingresa edad">
+            <input type="text" name="country" id="" autocomplete="off" placeholder="Ingresa país">
+            <input type="text" name="rol" id="" autocomplete="off" placeholder="Ingresa el rol">
+            <button type="submit">Insertar</button>
+        </form>
+
+        <div id="todos">
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
